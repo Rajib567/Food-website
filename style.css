@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+.bg-topbar{
+    background-image: url("images/top-bg.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    margin-top: -2px;
+}
+.menubar{
+
+}
+.menubar ul{
+    text-align: center;
+}
+.menubar ul li{
+    list-style-type: none;
+    display:  inline-block;
+    padding: 50px;
+    color: black;
+}
+.menubar ul li a{
+color: black;
+text-decoration: none;
+display: block;
+}
+.menubar ul li a:hover{
+    color: green;
+    font-weight: bold;
+}
+.image-part{
+    display: flex;
+    padding: 100px;
+}
+.side-image {
+    width: 100%;
+    
+}
+.half-width {
+    width: 50%;
+    padding-left:5%;
+    
+}
+.half-width img{
+    width: 100%;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(255, 123, 0);
+    background-image: linear-gradient(#ffae00,#ff7300);
+    padding: 10px 30px;
+    font-weight: 100px;
+    border-radius: 20px;
+    color: aliceblue;
+
+}
+.link-button:hover{
+    background-image: linear-gradient(#ffae00,#ff7300);
+}
+.second-banner {
+    background-image: url("images/one-bg.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    margin-top: 5%;
+
+}
+.link-button-two{
+    text-decoration: none;
+    background-color: rgb(255, 123, 0);
+    background-image: linear-gradient(#ffae00,#ff7300);
+    padding: 10px 30px;
+    font-weight: 100px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.text-button{
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.image-one{
+    text-align: center;
+    width: 70%;
+    display: flex;
+    margin-left: 10%;
+    
+
+}
